@@ -32,7 +32,7 @@
 #number = "12.5"
 #number = True
 #number = False
-# number = "True"  # XXXXXX
+# number = "True"  # XXXXX
 
 
 # print(type(number))
