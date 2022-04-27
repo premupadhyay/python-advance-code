@@ -7,6 +7,7 @@
 # str
 # bytes     --->****
 # bytearray
+# None
 
 # -------collection---------------
 # range
@@ -15,7 +16,6 @@
 # set
 # frozenset
 # dict
-# None
 
 
 # int data types  ---> long
@@ -115,16 +115,16 @@ in python
 
 
 # -----bytesarray data type----
-x = [10, 20, 30, 40]
-byte_number = bytearray(x)
+# x = [10, 20, 30, 40]
+# byte_number = bytearray(x)
 
-print(byte_number)
-print(type(byte_number))
+# print(byte_number)
+# print(type(byte_number))
 
-print(byte_number[0])
+# print(byte_number[0])
 
-byte_number[0] = 12
+# byte_number[0] = 12
 
-print(byte_number)
+# print(byte_number)
 
 # Note :- bytearray is exactly same as bytes data types but it allow element can we modified and assign

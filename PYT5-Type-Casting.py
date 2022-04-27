@@ -7,25 +7,24 @@
 # str
 
 
-# ------------ int----------> float,string(only int number),bool
+# ------------ int <---------- float,string(only int number),bool
 #number = 34.5
 #number = "10"
 # number = "10ab"    xxxxx
 # number = "10.5"     xxxxx
 #number = True
 #number = False
-#number = "True"
+# number = "True"    xxxxxx
 # number = 5+3j    XXXXXXX
-
+# number = ("10+5")
 # print(type(number))
-
 # number_int = int(number)
 
 # print(number_int)
 
 # print(type(number_int))
 
-# ------------Float----------> int,string with any number,bool,
+# ------------Float <---------- int,string with any number,bool,
 #number = 123
 # number = 1+5j  XXXXX
 #number = "12"
@@ -47,7 +46,7 @@
 #number = True
 #number = "10"
 #number = "10.5"
-#number = "Ten"
+# number = "Ten"   # xxxxxxxxxxx
 
 
 # print(type(number))
@@ -56,16 +55,16 @@
 # print(type(number_float))
 
 
-# ------------bool---------->int(except -->0),string (except---> ""),float (except-->0.0)
+# ------------bool<----------int(except -->0),string (except---> ""),float (except-->0.0)
 # complex (except -->0)
 
-# number = 12  # Note--> anything in python treated as True except(0,"",empty,[],0+0j)
-#number = "Prem"
+# number = 12  # Note--> anything in python treated as True except(0,0.0,"",empty,[],0+0j,None)
+# number = "Prem"   --->1
 #number = 12.3
 #number = 0+0j
 #number = ""
 #number = 0
-#number = 0.0
+#number = 0.1
 #number = []
 #number = "This is python144453.35454"
 # print(type(number))
@@ -80,3 +79,15 @@
 # print("you are in right direction." or "Data scientist coming soon")
 # print(True or False)  # --->True
 # print(1 or 0)  # ----> 1
+
+
+# ----------None------------
+# None means nothing or No value associated\
+# In java None -->null
+
+# E.g
+def m1():
+    a = 10
+
+
+print(m1())
